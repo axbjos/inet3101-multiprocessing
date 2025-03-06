@@ -1,12 +1,7 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <time.h>
 
 int main() {
-    pid_t pid;
-
-    // Create a new process
-    //pid = fork();
 
     time_t seconds_start;
     time_t seconds_end;
